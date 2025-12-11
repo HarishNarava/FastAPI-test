@@ -33,4 +33,4 @@ then go to http://127.0.0.1:8000 to see it work
 - Sort by age descending: `/sort?sort_by=age&order=desc`
 - Sort by BMI ascending: `/sort?sort_by=bmi&order=asc`
 
-the patient data is stored in patients.json for now
+the sample patient data is stored in patients.json for now
