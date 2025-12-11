@@ -10,9 +10,9 @@ Testing FastAPI
 ## run these in terminal
 ```bash
 pip install -r requirements.txt for the dependencies
-'''
-then
-'''bash
+
+# and then
+
 uvicorn main:app --reload
 ```
 
