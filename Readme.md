@@ -1,15 +1,15 @@
-# FastAPI Test
+# FastAPI Patient Management
 
-Testing FastAPI
+Simple patient management system API built with FastAPI
 
 ## what it does
-- basic hello world endpoint
-- about page that says it's a test
-- that's pretty much it for now
+- patient management system with basic CRUD operations
+- loads patient data from JSON file
+- automatic API documentation
 
 ## run these in terminal
 ```bash
-pip install -r requirements.txt for the dependencies
+pip install -r requirements.txt
 
 # and then
 
@@ -19,8 +19,9 @@ uvicorn main:app --reload
 then go to http://127.0.0.1:8000 to see it work
 
 ## endpoints
-- `/` - says hello world
-- `/about` - test message
-- `/docs` - automatic documentation
+- `/` - main API info
+- `/about` - about the patient management system
+- `/view` - view all patient records
+- `/docs` - automatic API documentation
 
-this is just for testing 
+the patient data is stored in patients.json for now
